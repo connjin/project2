@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="images/favicon.ico">
+
+    <title>jQuery Slider</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="styles.css" rel="stylesheet">
+    <link href="jquery.fullPage.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway:300" rel="stylesheet">
+    <link href="mojo/styles.css" rel="stylesheet">
+
+
+  </head>
+
+  <body>
+
+
+    <ul id="menu">
+        <li data-menuanchor="firstPage"><a href="#firstPage">Home</a></li>
+        <li data-menuanchor="secondPage"><a href="#secondPage">Kaepernick's Kneel</a></li>
+        <li data-menuanchor="thirdPage"><a href="#thirdPage">Recent Protests</a></li>
+        <li data-menuanchor="fourthPage"><a href="#fourthPage">Reaction</a></li>
+        <li data-menuanchor="fifthPage"><a href="#fifthPage">The History</a></li>
+        <li data-menuanchor="sixthPage"><a href="#sixthPage">The History pt. 2</a></li>
+        <li data-menuanchor="seventhPage"><a href="#seventhPage">The History pt. 3</a></li>
+        <li data-menuanchor="eighthPage"><a href="#eighthPage">Does it matter?</a></li>
+        <li data-menuanchor="ninthPage"><a href="#ninthPage">Quiz</a></li>
+    </ul>
+
+    <div id="fullpage">
+      <div class="section section-1" data-anchor="firstPage" data-tooltip="firstPage">
+        <div class="s1-row row">
+          <div class="col-sm-6 s1-text">
+            <h1>The Myth of the Popular Protest</h1>
+            <p> Civil rights protests have never been popular with the American public. Does it matter?</p>
+          </div>
+
+          <div class="col-sm-6 s1-img">
+            <img class="img-fluid" src="protest-home-gif.gif" height="550" width= "700">
+          </div>
+        </div>
+      </div>
+      <div class="section section-2" data-anchor="secondPage" data-tooltip="secondPage">
+        <div class="text">
+          <h1>Kaepernick's Kneel</h1>
+          <p>During the 49ers' 2016 final preseason game, quarterback Colin Kaepernick knelt for the national anthem instead of taking a seat on the bench in protest of racial injustice and police brutality in America.</p>
+          <p>He explained, <h4 id="k-quote"></h4></p>
+          <p>Kaepernick's actions soon became a polarizing issue amongst the American public, often along racial divides.</p>
+          <p>Several other athletes and NFL members also knelt for the anthem. The hashtag "#VeteransForKaepernick" was created. He was voted the most disliked member of the NFL in a 2016 poll. Several public figures condemned his actions and fans boycotted the NFL, leading to a drop in ratings. He also received death threats.</p>
+        <div class="s2-graph-row row">
+            <div class="s2-graph col-sm-6">
+              <img class="img-fluid" src="approval-graph-b.png" alt="approval ratings black people">
+            </div>
+
+            <div class='s2-graph col-sm-6'>
+              <img class="img-fluid" src="approval-graph-w.png" alt="approval ratings white people">
+            </div>
+          </div>
+          <p class="caption"> In a 2016 poll, 42 percent of African-Americans said they liked Kaepernick "a lot" as compared to 16 percent in 2014, while 37 percent of Caucasians said they disliked the quarterback in 2016 compared to 7 percent in 2014.</p>
+        </div>
+      </div>
+      <div class="section section-3" data-anchor="thirdPage" data-tooltip="thirdPage">
+        <div class="row s3-row">
+          <div class="col-sm-6 s3-text text">
+            <p> As black men have continued to be killed by police, the protests have grown.</p>
+            <p>Players and coaches have taken part. Athletes from outside the NFL have joined in, as well as student athletes in at least 52 high schools, 43 colleges, one middle school and 42 youth leagues in 35 states and abroad.</p>
+            <p>Recently, President Trump scolded players and the league on Twitter, tweeting that NFL players should either be fired or suspended for failure to stand for the national anthem.</p>
+
+            <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">"Great solidarity for our National Anthem and for our Country. Standing with locked arms is good, kneeling is not acceptable. Bad ratings!"</p><p>&mdash; Donald J. Trump (@realDonaldTrump) <a href="https://twitter.com/realDonaldTrump/status/912018945158402049?ref_src=twsrc%5Etfw">September 24, 2017</a></p></blockquote>
+            <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+
+          <div class="col-sm-6 s3-img">
+            <img class="img-fluid" src="us-kneels.gif" height="400" width="600">
+              <div class="row s3-ppl-row">
+                <div class="col-sm-6 s3-ppl-pic1">
+                  <img class="img-fluid" src="redskins-kneel.jpg">
+                  <div class="overlay">
+                    <div class="overlay-txt">Members of the Washington Redskins knelt and held hands during the national anthem on Sunday night.</div>
+                  </div>
+                </div>
+                <div class="col-sm-6 s3-ppl-pic2">
+                  <img class="img-fluid" src="seahawks-titans-empty-bench.jpg">
+                  <div class="overlay">
+                    <div class="overlay-txt">Officials stand in front of an empty bench during the national anthem before the Seahawks-Titans game.</div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="section section-4" data-anchor="fourthPage" data-tooltip="fourthPage">
+        <div class="text">
+          <p>In the days and weeks following, the public backlash has been swift. Those that have knelt, linked arms or sat have been labeled as unamerican, as traitors. They have been booed at games. NFL officials have recommended suspension for kneeling players. Vice President Pence, in his own staged protest, left a NFL game when players knelt. Even among those that publically supported the protests, there seems to be a common thread of disapproval about the form of protest involved.</p>
+          
+          <p>It's summed up in David Leonhardt's NYT opinion column, "The Choice Between Kneeling and Winning":</p>
+          <p>In it, he contrasts Kaepernick's "angry" protest to the "smart" approach of the civil-rights movement, which included the March on Washington and MLK's famous "I have a dream" speech. He equates these forms of protest during the civil-rights era with the success of the passing of the Voting Rights Act a year later.</p>
+          <p>As said in an Atlantic article on the subject,</p>
+          <blockquote><h4>"Often attendant to the idea that protesting players are shooting themselves in the foot is the notion that in some other era, black protest proved to be a unifying force that altered the psychology of some critical mass of open-minded whites."</h4></blockquote>
+          <p>This could not be further from the truth.</p>
+        </div>
+      </div>
+      <div class="section section-5" data-anchor="fifthPage" data-tooltip="fifthPage">
+        <h4> A 2016 poll found that only  <strong>38 percent</strong>  of Americans surveyed approved of players not standing for the anthem.</h4>
+        <h4> How does that match up to past protests?</h4>
+      </div>
+
+      <div class="section section-6" data-anchor="sixthPage" data-tooltip="sixthPage">
+        <div class="s6-row row">
+          <div class="s6-col col-sm-4">
+            <img class="img-fluid" src="riders.png">
+            <p> <strong> 22 percent </strong> of all Americans approved of the Freedom Rides. </p>
+          </div>
+
+          <div class="s6-col col-sm-4">
+            <img class="img-fluid" src="sit-in.png">
+            <p><strong> 28 percent </strong> approved of the sit-ins. </p>
+          </div>
+
+          <div class="s6-col col-sm-4">
+            <img class="img-fluid" src="mlk.png">
+            <p> The majority of Americans – <strong> 63 percent </strong> – had "unfavorable" feelings about the March on Washington.</p>
+            <p> In 1966, <strong> 60 percent </strong> of Americans had a negative opinon of Martin Luther King Jr.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="section section-7" data-anchor="seventhPage" data-tooltip="seventhPage">
+       <p> Now, these protests are viewed much more positively – even held up as models of success. </p>
+       <p> But during their time, in fact many Americans thought these demonstrations would hurt the advancement of civil rights.</p>
+       <p> In a 1961 poll, <strong>57 percent</strong> of Americans said that they believed sit-ins and other demonstrations by African-Americans would hurt their chances of being integrated in the South. </p>
+       <p> These numbers sound strikingly similar to the <strong>55 percent</strong> of Americans that said the Black Lives Matter movement distracts from real issues of racial discrimination in a September poll.</p>
+      </div>
+
+      <div class="section section-8" data-anchor="eighthPage" data-tooltip="eighthPage">
+        <div class="text">
+        <h1> Does it matter? </h1>
+        <p> So what do these patterns mean for the future, and for the movement that Colin Kaepernick sparked when he took a knee last year?</p>
+        <p> When looking at polling data of attitudes towards protests taken at the time of the protests, it's important to realize that they reflect the attitudes of that time.</p>
+        <p> Attitudes change, and while civil rights protestors may not connect with the hearts of American people during their time, they connect with the hearts of those to come.</p>
+        <p> When people protest, they have their eyes set on the future. And they should continue to do so.</p>
+        </div>
+      </div>
+
+      <div class="section section-9" data-anchor="ninthPage" data-tooltip="ninthPage">
+        <div class="container-fluid">
+           <div id="quiz"></div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script> 
+    <script src="jquery.fullPage.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
+    <script id="twitter-wjs" type="text/javascript" async defer src="//platform.twitter.com/widgets.js"></script>
+
+    <script src="mojo/tabletop.js" type="text/javascript"></script>
+    <script src="mojo/script.js" type="text/javascript"></script>
+            
+    <script type="text/javascript">
+      var quiz = jQuery('#quiz').quiz('2PACX-1vQXY6BZLHIV6tAdfJZic6UTJ5JjH7v3EGUjGPb8kECRLvI7k6o741euedg3IHmaFqH6UibXUY1dKtKS'); //your published spreadsheet key or URL goes here
+    </script>
+    <script src="scripts.js"></script>
+  </body>
+</html>
